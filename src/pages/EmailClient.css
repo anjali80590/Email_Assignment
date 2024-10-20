@@ -1,0 +1,24 @@
+.email-client {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.email-view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-bar {
+  margin-bottom: 10px;
+}
+
+.email-list {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.email-body {
+  flex: 2;
+}

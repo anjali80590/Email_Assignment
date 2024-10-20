@@ -1,0 +1,109 @@
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.filters {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.filters button {
+  margin-right: 15px;
+  padding: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filters .active {
+  background-color: #007bff;
+  color: white;
+}
+
+.main-container {
+  display: flex;
+}
+
+.email-list {
+  width: 40%;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.email-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.email-item.selected {
+  border: 2px solid #007bff;
+}
+
+.email-item.unread {
+  background-color: #f1f1f1;
+}
+
+.email-item.read {
+  background-color: #eaeaea;
+}
+
+.email-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.email-content {
+  flex: 1;
+}
+
+.email-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.email-subject {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.email-short-description {
+  font-size: 14px;
+  color: #666;
+}
+
+.email-body {
+  width: 60%;
+  padding: 20px;
+}
+
+.favorite-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 14px;
+  border-radius: 5px;
+}
